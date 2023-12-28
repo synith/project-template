@@ -1,0 +1,15 @@
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+/// <summary>
+/// #NAME#
+/// </summary>
+public class #SCRIPTNAME#
+{
+    public #SCRIPTNAME#()
+    {
+        #NOTRIM#
+    }
+        
+}
+#ROOTNAMESPACEEND#

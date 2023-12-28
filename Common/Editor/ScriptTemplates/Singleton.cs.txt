@@ -1,0 +1,25 @@
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+/// <summary>
+/// #NAME#
+/// </summary>
+public class #SCRIPTNAME# : MonoBehaviour
+{
+    public static #SCRIPTNAME# Instance { get; private set; }
+
+    void Awake()
+    {
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+        #NOTRIM#
+        DontDestroyOnLoad(gameObject);
+        #NOTRIM#
+    }
+        
+}
+#ROOTNAMESPACEEND#
