@@ -1,4 +1,3 @@
-using Features.Input;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
